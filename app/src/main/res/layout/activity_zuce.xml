@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.jd_demo.actvity.activity.ZuceActivity">
+    <EditText
+        style="@style/EditText.name"
+        android:id="@+id/zuce_name"
+        android:background="#fff"
+        android:layout_marginTop="25dp"
+
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        style="@style/EditText.Password"
+        android:id="@+id/zuce_pwd"
+        android:background="#fff"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        style="@style/EditText.Password"
+        android:id="@+id/zuce_pwd1"
+        android:background="#fff"
+        />
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:background="#FF0000"
+        android:id="@+id/zuce_zuce"
+        />
+</LinearLayout>

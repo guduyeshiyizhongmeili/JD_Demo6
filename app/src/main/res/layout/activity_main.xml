@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actvity.activity.MainActivity"
+    android:weightSum="1">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:id="@+id/viewPage"
+        android:layout_weight="1.00"></android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bebebe"
+        android:layout_below="@id/viewPage"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:id="@+id/radio"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioButton
+            style="@style/main_style"
+            android:drawableTop="@drawable/shouye_chekd"
+            android:text="首页"
+            android:id="@+id/rb_shouye"
+            android:checked="true"
+            />
+
+        <RadioButton
+            style="@style/main_style"
+            android:drawableTop="@drawable/fenlei_chekd"
+            android:text="分类"
+            android:id="@+id/rb_fenlei"
+            />
+        <RadioButton
+            style="@style/main_style"
+            android:drawableTop="@drawable/find_chekd"
+            android:text="发现"
+            android:id="@+id/rb_find"
+            />
+        <RadioButton
+            style="@style/main_style"
+            android:drawableTop="@drawable/gouwuche_chekd"
+            android:text="购物车"
+            android:id="@+id/rb_shopingcar"
+            />
+        <RadioButton
+            style="@style/main_style"
+            android:drawableTop="@drawable/geren_chekd"
+            android:text="个人"
+            android:id="@+id/rb_geren"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
